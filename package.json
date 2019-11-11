@@ -2,8 +2,9 @@
   "name": "react-sample-components-library",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "jest",
     "start": "styleguidist server"
   },
@@ -31,6 +32,11 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-styleguidist": "^10.2.0",
+    "rollup": "^1.26.5",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
     "webpack": "^4.41.2"
   },
   "dependencies": {},
